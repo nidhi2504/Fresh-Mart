@@ -1,0 +1,81 @@
+body,html{
+    height: 100%;
+}
+*{
+    box-sizing: border-box;
+}
+body,h1,h4,p{
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.bg-image{
+    color:#000000;
+    background-image:url("../images/grocery_index.jpg");
+    filter: blur(4px);
+  -webkit-filter: blur(4px);
+    height: 100%; 
+   background-position: center;
+  background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+     color: white;
+     font-size: 240%;
+     word-spacing: 5px;
+     letter-spacing: 3px;
+     margin-bottom: 10px;
+     text-transform: uppercase;
+     font-weight: lighter;
+}
+p{
+    color:white;
+    font-size: 100%;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    font-weight: lighter;
+}
+#content-main{
+    background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0, 0.4);
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 60%;
+  padding: 20px;
+  text-align: center;
+}
+
+#firstrow:before,#secondrow:before{
+    display: block; 
+    content: " "; 
+    margin-top: -85px; 
+    height: 85px; 
+    visibility: hidden;
+}
+
+#content{
+    min-height: 600px;
+    padding:60px;
+    margin:10px;
+}
+
+.cart{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  padding:10px;
+  padding-bottom: 20px;
+}
+
+.cart1{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin:40px;
+  text-align: center;
+  font-family: arial;
+}
